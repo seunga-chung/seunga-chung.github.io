@@ -27,8 +27,6 @@ footer:
       link: https://linkedin.com/in/seunga-chung-0386a51bb/
     - name: GitHub
       link: https://github.com/seunga-chung
-    - name: YouTube
-      link: https://www.youtube.com/channel/UC2KRCA2bmnhoR1rsNv1vhgQ
 
 # Build settings
 markdown: kramdown
