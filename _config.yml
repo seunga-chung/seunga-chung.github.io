@@ -23,19 +23,12 @@ footer:
       value: ewhacsa@ewhain.net
       link: mailto:ewhacsa@ewhain.net
   follow:
-    - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
     - name: LinkedIn
       link: http://linkedin.com/in/YourLinkedInUsername
     - name: GitHub
       link: http://github.com/YourGitHubUsername
-    - name: Dribbble
+    - name: YouTube
       link: https://dribbble.com/YourDribbbleUsername
-    - name: RSS
-      link: /feed.xml
 
 # Build settings
 markdown: kramdown
