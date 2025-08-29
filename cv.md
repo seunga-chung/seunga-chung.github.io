@@ -41,7 +41,7 @@ subtitle: Curriculum Vitae — education, honors, experience, skills
   <p class="title">At a Glance</p>
   <p>
     <span class="badge">Ph.D. — Ewha HCI Lab</span>
-    <span class="badge">UIST 2024 Co-Chair</span>
+    <span class="badge">UIST 2025 SV Co-Chair</span>
     <span class="badge">W4A Best Paper Nominee</span>
     <span class="badge">Ewha Boeing Scholarship</span>
   </p>
@@ -112,7 +112,7 @@ subtitle: Curriculum Vitae — education, honors, experience, skills
 <div class="pub-card">
   <div class="pub-title"><strong>Service & Volunteering</strong></div>
   <ul>
-    <li>UIST 2024 (Co-Chair)</li>
+    <li>UIST 2025 (Co-Chair)</li>
     <li>HCI Korea 2021 · ISMAR 2021 · ASSETS 2021 · CHI 2022</li>
   </ul>
 </div>
