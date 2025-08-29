@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="home">
+          <!-- home.html과 동일하지만 프로필 이미지를 제거 -->
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+    {% include foot.html %}
+  </body>
+</html>
