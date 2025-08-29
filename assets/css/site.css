@@ -118,3 +118,21 @@ a{ color:var(--accent); text-underline-offset:3px; }
 
 /* 버튼이 다른 요소에 가려질 때 대비 */
 .btn{ position: relative; z-index: 1; }
+
+/* hero row */
+.cards.cards-hero{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));align-items:stretch}
+
+/* denser card + header */
+.card.dense{padding:14px 16px}
+.card .hd{display:flex;justify-content:space-between;align-items:center;margin:0 0 10px}
+.card .hd .title{margin:0;font-weight:700}
+
+/* compact pills */
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 0}
+.pill{border:1px solid var(--line);border-radius:999px;padding:6px 10px;font-size:.85rem;color:var(--muted);background:var(--bg)}
+
+/* tidy key–value list */
+.kv{list-style:none;margin:10px 0 0;padding:0;display:grid;grid-template-columns:1fr;gap:8px}
+.kv li{display:flex;gap:8px;align-items:baseline}
+.kv .key{width:90px;color:var(--muted);font-size:.9rem;flex:0 0 auto}
+.kv .val{flex:1}
