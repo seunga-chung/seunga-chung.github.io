@@ -49,7 +49,6 @@ subtitle: Curriculum Vitae — education, honors, experience, skills
     <li><strong>Focus:</strong> Accessibility · HCI · VR/AR</li>
     <li><strong>Methods:</strong> User studies, prototyping, design-space exploration</li>
     <li><strong>Tooling:</strong> Python, Unity</li>
-    <li><strong>Collaboration:</strong> Open to talks, advisory, and research collaborations</li>
   </ul>
 </div>
 
