@@ -6,7 +6,7 @@ permalink: /cv/
 
 # Curriculum Vitae — SeungA Chung
 
-▶︎ **[Download Full CV (PDF)](/files/SeungA_Chung_CV.pdf)**
+▶︎ **[Download Full CV (PDF)](/files/SeungA_Chung_CV_250829.pdf)**
 
 ---
 
