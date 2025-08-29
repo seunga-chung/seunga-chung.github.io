@@ -61,7 +61,7 @@ Advisor: Prof. Uran Oh
 - **CS11361 Computational Thinking for Programming** (Fall 2020)
 
 ### Student Volunteer
-- HCI Korea 2021, ISMAR 2021, ASSETS 2021, CHI 2022,
+- HCI Korea 2021, ISMAR 2021, ASSETS 2021, CHI 2022
 - UIST 2024(Co-Chair)
 
 ---
