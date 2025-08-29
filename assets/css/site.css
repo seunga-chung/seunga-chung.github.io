@@ -136,3 +136,24 @@ a{ color:var(--accent); text-underline-offset:3px; }
 .kv li{display:flex;gap:8px;align-items:baseline}
 .kv .key{width:90px;color:var(--muted);font-size:.9rem;flex:0 0 auto}
 .kv .val{flex:1}
+
+/* About layout: sidebar + main */
+.about-grid{
+  display:grid;
+  grid-template-columns:260px 1fr; /* 좌측 사이드바 고정폭 */
+  gap:16px;
+  align-items:start;
+  margin-top:8px;
+}
+@media (max-width: 900px){
+  .about-grid{ grid-template-columns:1fr; }
+}
+
+/* 세로 스택 */
+.stack{ display:grid; gap:16px; }
+
+/* 사이드바 카드 안 key 폭 조금 더 타이트하게 */
+.card.aside .kv .key{ width:72px; }
+
+/* 더 컴팩트한 칩 */
+.pills.compact .pill{ padding:5px 9px; font-size:.8rem; }
