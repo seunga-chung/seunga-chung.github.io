@@ -1,0 +1,60 @@
+# _data/publications.yml
+
+- year: 2023
+  items:
+    - type: Journal
+      authors: "João Guerreiro; Yujin Kim; Rodrigo Nogueira; SeungA Chung; André Rodrigues; Uran Oh"
+      title: "The Design Space of the Auditory Representation of Objects and Their Behaviours in VR for Blind People"
+      venue: "IEEE Transactions on Visualization and Computer Graphics (TVCG)"
+      doi: "10.1109/TVCG.2023.3247094"         # DOI 있으면
+      status: "Published"
+
+- year: 2021
+  items:
+    - type: Conference
+      authors: "SeungA Chung; Kyungyeon Lee; Uran Oh"
+      title: "Understanding the Two-Step Nonvisual Omnidirectional Guidance for Target Acquisition in 3D Spaces"
+      venue: "International Symposium on Mixed and Augmented Reality (ISMAR)"
+      ar: "23.6%"
+      status: "Published"
+
+    - type: Poster
+      authors: "SeungA Chung; Hwayeon Joh; Eunji Lee; Uran Oh"
+      title: "PanoCue: An Efficient Visual Cue with an Omnidirectional Panoramic View for Finding a Target in 3D Space"
+      venue: "ISMAR Poster"
+      status: "Published"
+
+    - type: Journal
+      authors: "Kyungyeon Lee; SeungA Chung; Uran Oh"
+      title: "OverIT: An Interactive Overlay for Touchscreen-based UI Customization with Programming by Demonstration"
+      venue: "International Journal of Advanced Smart Convergence (IJASC)"
+      status: "Published"
+
+    - type: Conference
+      authors: "SeungA Chung*; Soobin Park*; Sohyeon Park; Kyungyeon Lee; Uran Oh"
+      title: "Improving Mealtime Experience of People with Visual Impairments"
+      venue: "International Web for All Conference (W4A)"
+      award: "Best Technical Paper Nomination"
+      status: "Published"
+
+    - type: Workshop
+      authors: "SeungA Chung; Kyungyeon Lee; Sohyeon Park; Uran Oh"
+      title: "Three-dimensional Nonvisual Directional Guidance for People with Visual Impairments"
+      venue: "Mobile and Pervasive Assistive Technologies (MPAT) Workshop"
+      status: "Published"
+
+- year: 2020
+  items:
+    - type: Poster
+      authors: "SeungA Chung; Kyungyeon Lee; Uran Oh"
+      title: "Investigating Three-dimensional Directional Guidance with Nonvisual Feedback for Target Pointing Task"
+      venue: "ISMAR Poster"
+      status: "Published"
+
+- year: 2019
+  items:
+    - type: Workshop
+      authors: "SeungA Chung; Uran Oh"
+      title: "Exploring the Design Space of an Augmented Display for Conveying Facial Expressions for People with Autism"
+      venue: "Workshop on Mixed Reality and Accessibility (at ISMAR)"
+      status: "Published"
