@@ -5,14 +5,7 @@ permalink: /cv/
 subtitle: Curriculum Vitae — education, honors, experience, skills
 ---
 
-<p><a class="btn btn--primary" href="/files/SeungA_Chung_CV_250829.pdf">Download Full CV (PDF)</a></p>
-<p class="pub-meta small">[debug] 사이트에 올라간 PDF들:</p>
-<ul>
-{% assign pdfs = site.static_files | where: "extname", ".pdf" %}
-{% for f in pdfs %}
-  <li>{{ f.path }}</li>
-{% endfor %}
-</ul>
+<p><a class="btn btn--primary" href="/SeungA_Chung_CV_250829.pdf">Download Full CV (PDF)</a></p>
 
 
 <div class="cards">
