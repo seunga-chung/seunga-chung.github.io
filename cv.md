@@ -53,15 +53,16 @@ Advisor: Prof. Uran Oh
 - Multiple poster and workshop presentations at ISMAR, MPAT, and W4A.
 
 ### Teaching Assistant
-- **CS35913 Human-Computer Interaction** (2020, 2021, 2022)  
-- **CS36510 Virtual Reality** (2022, 2023)
-- **CS20480 Artificial Intelligence** (2024)
-- **CS38899	Theory of Programming Languages** (2024)
-- **CS36503 Software-based Convergence System Design** (2024)
-- **CS11361 Computational Thinking for Programming** (2020)
+- **CS35913 Human-Computer Interaction** (Spring 2020, Spring 2021, Fall 2022)  
+- **CS36510 Virtual Reality** (Spring 2022, Spring 2023)
+- **CS20480 Artificial Intelligence** (Spring 2024)
+- **CS38899	Theory of Programming Languages** (Fall 2024)
+- **CS36503 Software-based Convergence System Design** (Spring 2024)
+- **CS11361 Computational Thinking for Programming** (Fall 2020)
 
 ### Student Volunteer
-- HCI Korea 2021, ISMAR 2021, ASSETS 2021, CHI 2022, UIST 2024(Co-Chair)
+- HCI Korea 2021, ISMAR 2021, ASSETS 2021, CHI 2022,
+- UIST 2024(Co-Chair)
 
 ---
 
