@@ -6,6 +6,10 @@ permalink: /cv/
 
 # Curriculum Vitae — SeungA Chung
 
+▶︎ **[Download Full CV (PDF)](/files/SeungA_Chung_CV.pdf)**
+
+---
+
 ## Contact
 - 📧 Email: [ewhacsa@ewha.ac.kr](mailto:ewhacsa@ewha.ac.kr)
 - 🔗 LinkedIn: [linkedin.com/in/seunga-chung](https://linkedin.com/in/seunga-chung-0386a51bb/)
