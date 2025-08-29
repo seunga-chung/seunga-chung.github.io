@@ -81,3 +81,19 @@ a{ color:var(--accent); text-underline-offset:3px; }
 
 /* Footer */
 .site-footer{ border-top:1px solid var(--line); padding:16px 0; color:var(--muted); }
+
+/* 섹션 라벨: 작고 세련되게 */
+.section-label{
+  margin:28px 0 12px;
+  padding-top:12px;
+  border-top:1px solid var(--line);
+  font-size:12px;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  color:var(--muted);
+}
+
+/* 여백 살짝 컴팩트 */
+.pub-card.compact{ padding:12px 14px; margin:0 0 10px; }
+.pub-meta.small{ font-size:.9rem; }
+
