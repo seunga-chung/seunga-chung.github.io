@@ -1,5 +1,13 @@
 # _data/publications.yml
 
+- year: 2024
+  items:
+    - type: Poster
+      authors: "SeungA Chung; João Guerreiro; André Rodrigues; Uran Oh"
+      title: "Designing A VR-based Accessible Speed Of Light Exergame for People with Visual Impairments"
+      venue: "International Symposium on Mixed and Augmented Reality (ISMAR) — Poster"
+      status: "Published"
+      
 - year: 2023
   items:
     - type: Journal
