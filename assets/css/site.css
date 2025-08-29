@@ -176,3 +176,32 @@ a{ color:var(--accent); text-underline-offset:3px; }
   .kv.kv-2col{ grid-template-columns:1fr; }
 }
 
+/* 1) 홈 히어로의 떠 있는 프로필 이미지를 숨겨서 레이아웃 깨짐 방지 */
+.home .profile, .home .profile-picture { display:none !important; float:none !important; }
+
+/* 2) About 섹션: 3열 그리드 */
+.about-band{ margin-top:16px; }
+.about-grid3{
+  display:grid;
+  grid-template-columns: 260px 1fr 1fr; /* 좌측 고정폭 사이드 + 2개의 메인 카드 */
+  gap:16px; align-items:start;
+}
+@media (max-width: 980px){ .about-grid3{ grid-template-columns:1fr; } }
+
+/* 카드 밀도 & 헤더 */
+.card.dense{ padding:14px 16px; }
+.card .hd{ display:flex; justify-content:space-between; align-items:center; margin:0 0 10px; }
+.card .hd .title{ margin:0; font-weight:700; }
+
+/* 키-밸류 정렬 & 칩 */
+.kv{ list-style:none; margin:10px 0 0; padding:0; display:grid; gap:8px; }
+.kv li{ display:flex; gap:8px; align-items:baseline; }
+.kv .key{ width:82px; color:var(--muted); font-size:.9rem; flex:0 0 auto; }
+.kv .val{ flex:1; }
+.pills{ display:flex; flex-wrap:wrap; gap:8px; margin:6px 0 0; }
+.pill{ border:1px solid var(--line); border-radius:999px; padding:6px 10px; font-size:.85rem; color:var(--muted); background:var(--bg); }
+
+/* Contact 카드에 아바타 옵션 */
+.about-contact .avatar{
+  width:72px; height:72px; border-radius:999px; object-fit:cover; display:block; margin:0 0 10px;
+}
