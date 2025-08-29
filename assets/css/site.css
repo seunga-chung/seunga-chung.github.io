@@ -1,9 +1,10 @@
 :root{
-  --fg:#0b1220; --muted:#60708a; --line:#e5e7eb; --accent:#4d6bff;
-  --bg:#ffffff; --card:#fafbfe;
+  --brand-green: #0b5d3b;
+  --fg:#0b1220; --muted:#60708a; --line:#e5e7eb; --accent: var(--brand-green);
+  --bg:#ffffff; --card:#fafbfe; 
 }
 @media (prefers-color-scheme: dark){
-  :root{ --fg:#f1f5f9; --muted:#9fb0c9; --line:#1f2937; --bg:#0b1220; --card:#111827; --accent:#8aa0ff; }
+  :root{ --fg:#f1f5f9; --muted:#9fb0c9; --line:#1f2937; --bg:#0b1220; --card:#111827; --accent: var(--brand-green); --brand-green: #0b5d3b;}
 }
 
 /* Base */
@@ -97,12 +98,23 @@ a{ color:var(--accent); text-underline-offset:3px; }
 .pub-card.compact{ padding:12px 14px; margin:0 0 10px; }
 .pub-meta.small{ font-size:.9rem; }
 
-/* Sleeker primary button tone (ink/slate) */
 .btn--primary{
-  background:#2f3640;  /* ink slate */
-  color:#fff;
-  border-color:#2f3640;
+  background: var(--brand-green);
+  color: #fff;
+  border-color: var(--brand-green);
+  transition: background .15s ease, border-color .15s ease, filter .15s ease;
 }
 .btn--primary:hover{
   filter: brightness(1.06);
 }
+.btn--primary:active{
+  filter: brightness(0.95);
+}
+.btn--primary:focus-visible{
+  outline: 3px solid rgba(11,93,59,.18);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 3px rgba(11,93,59,.12);
+}
+
+/* 버튼이 다른 요소에 가려질 때 대비 */
+.btn{ position: relative; z-index: 1; }
