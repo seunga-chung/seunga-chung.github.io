@@ -35,8 +35,7 @@ subtitle: Curriculum Vitae — education, honors, experience, skills
     <li><strong>Current focus:</strong> Personalizing subtitles for Deaf/HoH users (emotion, tone, sound effects, emphasis) to improve readability and immersion.</li>
     <li><strong>Prior work:</strong> Non-visual guidance and panoramic cues in VR/AR for people with visual impairments; spatial audio/haptic feedback design.</li>
   </ul>
-</div>
-  
+</div>  
   <div class="card">
   <p class="title">At a Glance</p>
   <p>
@@ -50,6 +49,7 @@ subtitle: Curriculum Vitae — education, honors, experience, skills
     <li><strong>Methods:</strong> User studies, prototyping, design-space exploration</li>
     <li><strong>Tooling:</strong> Python, Unity</li>
   </ul>
+</div>
 </div>
 
 
