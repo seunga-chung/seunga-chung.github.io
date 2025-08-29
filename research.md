@@ -2,9 +2,6 @@
 layout: home-page
 title: Research
 permalink: /research/
-profile_picture:
-  src: /assets/img/profile.jpg
-  alt: SeungA Chung profile photo
 subtitle: Publications by type — Journal / Conference / Workshop / Poster
 ---
 
