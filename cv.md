@@ -5,7 +5,13 @@ permalink: /cv/
 subtitle: Curriculum Vitae — education, honors, experience, skills
 ---
 
-<p><a class="btn btn--primary" href="/SeungA_Chung_CV_250829.pdf">Download Full CV (PDF)</a></p>
+<p>
+  <a class="btn btn--primary"
+     href="SeungA_Chung_CV_250829.pdf"
+     download target="_blank" rel="noopener">
+    Download Full CV (PDF)
+  </a>
+</p>
 
 
 <div class="cards">
@@ -19,14 +25,34 @@ subtitle: Curriculum Vitae — education, honors, experience, skills
     </p>
   </div>
   <div class="card">
-    <p class="title">Research Areas</p>
-    <p class="lead">Accessibility (Deaf/HoH), SDH/Emotion-rich Subtitles, Chat Comprehension, VR/AR</p>
-  </div>
-  <div class="card">
-    <p class="title">At a Glance</p>
-    <p>UIST/CHI SV · W4A Best Paper Nomination · Ewha Boeing Scholarship</p>
-  </div>
+  <p class="title">Research Areas</p>
+  <p>
+    <span class="badge">Caption Personalization for Deaf/HoH</span>
+    <span class="badge">Visual/Non-visual Guidance Feedback for PVI</span>
+    <span class="badge">VR/AR in HCI</span>
+  </p>
+  <ul>
+    <li><strong>Current focus:</strong> Personalizing subtitles for Deaf/HoH users (emotion, tone, sound effects, emphasis) to improve readability and immersion.</li>
+    <li><strong>Prior work:</strong> Non-visual guidance and panoramic cues in VR/AR for people with visual impairments; spatial audio/haptic feedback design.</li>
+  </ul>
 </div>
+  
+  <div class="card">
+  <p class="title">At a Glance</p>
+  <p>
+    <span class="badge">Ph.D. — Ewha HCI Lab</span>
+    <span class="badge">UIST 2024 Co-Chair</span>
+    <span class="badge">W4A Best Paper Nominee</span>
+    <span class="badge">Ewha Boeing Scholarship</span>
+  </p>
+  <ul>
+    <li><strong>Focus:</strong> Accessibility · HCI · VR/AR</li>
+    <li><strong>Methods:</strong> User studies, prototyping, design-space exploration</li>
+    <li><strong>Tooling:</strong> Python, Unity</li>
+    <li><strong>Collaboration:</strong> Open to talks, advisory, and research collaborations</li>
+  </ul>
+</div>
+
 
 ## Education
 <div class="pub-card">
