@@ -37,7 +37,7 @@ Outside the lab, I’m usually watching plays and musicals, taking photos, or tr
         <span class="pill">Visual/Non-visual Guidance in VR</span>
         <span class="pill">VR/AR/XR in HCI</span>
       </div>
-      <ul class="kv">
+      <ul class="kv kv-2col">
         <li><span class="key">Current</span><span class="val">
           Personalizing SDH captions for Deaf/HoH viewers—adjusting color, timing, emphasis, and sound-effect cues for better comprehension and emotional engagement, especially in films.
         </span></li>
