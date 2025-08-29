@@ -8,17 +8,26 @@ subtitle: Publications by type — Journal / Conference / Workshop / Poster
 {% assign blocks = site.data.publications | sort: 'year' | reverse %}
 {% assign types = "Journal|Conference|Workshop|Poster" | split: "|" %}
 
+<!-- 상단 빠른 이동(원하면 지워도 됨) -->
+<p class="pub-meta small">
+  <a href="#journal">Journal</a> ·
+  <a href="#conference">Conference</a> ·
+  <a href="#workshop">Workshop</a> ·
+  <a href="#poster">Poster</a>
+</p>
+
 {% for T in types %}
-## {{ T }}
+<div id="{{ T | downcase }}" class="section-label">{{ T }}</div>
 {% assign any = false %}
+
   {% for b in blocks %}
     {% assign y = b.year %}
     {% for p in b.items %}
       {% if p.type == T %}
         {% assign any = true %}
-<div class="pub-card">
+<div class="pub-card compact">
   <div class="pub-title">{{ p.authors }}. <strong>{{ p.title }}</strong></div>
-  <div class="pub-meta">
+  <div class="pub-meta small">
     {% if p.venue %}<em>{{ p.venue }}</em>{% endif %}
     {% if y %} · {{ y }}{% endif %}
     {% if p.ar %} · AR: {{ p.ar }}{% endif %}
@@ -34,13 +43,13 @@ subtitle: Publications by type — Journal / Conference / Workshop / Poster
     {% if p.teaser %}<a href="{{ p.teaser }}">Teaser</a>{% endif %}
     {% if p.bib %}<a href="{{ p.bib }}">BibTeX</a>{% endif %}
   </div>
-  <div>
-    <span class="badge">{{ p.type }}</span>
-  </div>
 </div>
       {% endif %}
     {% endfor %}
   {% endfor %}
-{% unless any %}<p class="pub-meta">No {{ T | downcase }} items yet.</p>{% endunless %}
+
+{% unless any %}
+<p class="pub-meta small">No {{ T | downcase }} items yet.</p>
+{% endunless %}
 
 {% endfor %}
