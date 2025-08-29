@@ -14,48 +14,7 @@ subtitle: Curriculum Vitae — education, honors, experience, skills
 </p>
 
 
-<div class="cards cards-hero">
-  <!-- Contact -->
-  <div class="card dense">
-    <div class="hd"><p class="title">Contact</p></div>
-    <ul class="kv">
-      <li><span class="key">Email</span><span class="val"><a href="mailto:ewhacsa@ewha.ac.kr">ewhacsa@ewha.ac.kr</a></span></li>
-      <li><span class="key">LinkedIn</span><span class="val"><a href="https://linkedin.com/in/seunga-chung-0386a51bb/">linkedin.com/in/seunga-chung</a></span></li>
-      <li><span class="key">GitHub</span><span class="val"><a href="https://github.com/seunga-chung">github.com/seunga-chung</a></span></li>
-      <li><span class="key">Phone</span><span class="val">+82-10-2464-9598</span></li>
-    </ul>
-  </div>
 
-  <!-- Research Areas -->
-  <div class="card dense">
-    <div class="hd"><p class="title">Research Areas</p></div>
-    <div class="pills">
-      <span class="pill">Caption Personalization (Deaf/HoH)</span>
-      <span class="pill">Visual/Non-visual Guidance in VR</span>
-      <span class="pill">VR/AR in HCI</span>
-    </div>
-    <ul class="kv">
-      <li><span class="key">Current</span><span class="val">Personalizing subtitles for Deaf/HoH users (emotion, tone, sound effects, emphasis) to improve readability and immersion.</span></li>
-      <li><span class="key">Prior</span><span class="val">Non-visual guidance and panoramic cues in VR/AR for people with visual impairments; spatial audio/haptic feedback.</span></li>
-    </ul>
-  </div>
-
-  <!-- At a Glance -->
-  <div class="card dense">
-    <div class="hd"><p class="title">At a Glance</p></div>
-    <div class="pills">
-      <span class="pill">Ph.D. — Ewha HCI Lab</span>
-      <span class="pill">UIST 2025 SV Co-Chair</span>
-      <span class="pill">W4A Best Paper Nominee</span>
-      <span class="pill">Ewha Boeing Scholarship</span>
-    </div>
-    <ul class="kv">
-      <li><span class="key">Focus</span><span class="val">Accessibility · HCI · VR/AR</span></li>
-      <li><span class="key">Methods</span><span class="val">User studies, prototyping, design-space exploration</span></li>
-      <li><span class="key">Tooling</span><span class="val">Python, Unity</span></li>
-    </ul>
-  </div>
-</div>
 
 
 
