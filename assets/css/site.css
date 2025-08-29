@@ -97,3 +97,12 @@ a{ color:var(--accent); text-underline-offset:3px; }
 .pub-card.compact{ padding:12px 14px; margin:0 0 10px; }
 .pub-meta.small{ font-size:.9rem; }
 
+/* Sleeker primary button tone (ink/slate) */
+.btn--primary{
+  background:#2f3640;  /* ink slate */
+  color:#fff;
+  border-color:#2f3640;
+}
+.btn--primary:hover{
+  filter: brightness(1.06);
+}
