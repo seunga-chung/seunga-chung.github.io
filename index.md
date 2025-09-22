@@ -31,8 +31,7 @@ Outside the lab, I’m usually watching plays and musicals, taking photos, or tr
         <div class="hd"><p class="title">Research Areas</p></div>
         <div class="pills">
           <span class="pill">Caption Personalization (Deaf/HoH)</span>
-          <span class="pill">Emotion/Tone &amp; SFX Cues</span>
-          <span class="pill">Visual/Non-visual Guidance in VR</span>
+          <span class="pill">Visual/Non-visual Feedback Guidance in VR</span>
           <span class="pill">VR/AR/XR in HCI</span>
         </div>
         <ul class="kv kv-def" style="margin-top:12px">
