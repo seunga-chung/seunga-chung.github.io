@@ -11,7 +11,7 @@ During my master’s, I built an *omnidirectional feedback system in VR* to help
 Outside the lab, I’m usually watching plays and musicals, taking photos, or traveling :)
 
 <div class="about-band">
-  <div class="about-grid3">
+  <div class="about-two">
     <!-- LEFT: Contact -->
     <div class="card dense about-contact">
       <div class="hd"><p class="title">Contact</p></div>
@@ -24,40 +24,44 @@ Outside the lab, I’m usually watching plays and musicals, taking photos, or tr
       </ul>
     </div>
 
-    <!-- MIDDLE: Research Areas -->
-    <div class="card dense">
-      <div class="hd"><p class="title">Research Areas</p></div>
-      <div class="pills">
-        <span class="pill">Caption Personalization (Deaf/HoH)</span>
-        <span class="pill">Visual/Non-visual Feedback Guidance in VR</span>
-        <span class="pill">VR/AR/XR in HCI</span>
+    <!-- RIGHT: main stack -->
+    <div class="stack">
+      <!-- Research Areas -->
+      <div class="card dense">
+        <div class="hd"><p class="title">Research Areas</p></div>
+        <div class="pills">
+          <span class="pill">Caption Personalization (Deaf/HoH)</span>
+          <span class="pill">Emotion/Tone &amp; SFX Cues</span>
+          <span class="pill">Visual/Non-visual Guidance in VR</span>
+          <span class="pill">VR/AR/XR in HCI</span>
+        </div>
+        <ul class="kv kv-def" style="margin-top:12px">
+          <li>
+            <span class="key">Current</span>
+            <span class="val">Personalizing SDH captions for Deaf/HoH viewers—adjusting color, timing, emphasis, and sound-effect cues for better comprehension and emotional engagement, especially in films.</span>
+          </li>
+          <li>
+            <span class="key">Prior</span>
+            <span class="val">Non-visual/visual guidance and panoramic cues in VR/AR for people with visual impairments; spatial audio/haptic feedback design.</span>
+          </li>
+        </ul>
       </div>
-      <ul class="kv kv-def" style="margin-top:12px">
-        <li>
-          <span class="key">Current</span>
-          <span class="val">Personalizing SDH captions for Deaf/HoH viewers—adjusting color, timing, emphasis, and sound-effect cues for better comprehension and emotional engagement, especially in films.</span>
-        </li>
-        <li>
-          <span class="key">Prior</span>
-          <span class="val">Non-visual/visual guidance and panoramic cues in VR/AR for people with visual impairments; spatial audio/haptic feedback design.</span>
-        </li>
-      </ul>
-    </div>
 
-    <!-- RIGHT: At a Glance -->
-    <div class="card dense">
-      <div class="hd"><p class="title">At a Glance</p></div>
-      <div class="pills">
-        <span class="pill">Ph.D. — Ewha HCI Lab</span>
-        <span class="pill">UIST 2025 SV Co-Chair</span>
-        <span class="pill">W4A Best Paper Nominee</span>
-        <span class="pill">Ewha Boeing Scholarship</span>
+      <!-- At a Glance -->
+      <div class="card dense">
+        <div class="hd"><p class="title">At a Glance</p></div>
+        <div class="pills">
+          <span class="pill">Ph.D. — Ewha HCI Lab</span>
+          <span class="pill">UIST 2025 SV Co-Chair</span>
+          <span class="pill">W4A Best Paper Nominee</span>
+          <span class="pill">Ewha Boeing Scholarship</span>
+        </div>
+        <ul class="kv" style="margin-top:12px">
+          <li><span class="key">Focus</span><span class="val">Accessibility · HCI · VR/AR/XR</span></li>
+          <li><span class="key">Methods</span><span class="val">User studies, prototyping, design-space exploration</span></li>
+          <li><span class="key">Tooling</span><span class="val">Python, Unity</span></li>
+        </ul>
       </div>
-      <ul class="kv" style="margin-top:12px">
-        <li><span class="key">Focus</span><span class="val">Accessibility · HCI · VR/AR/XR</span></li>
-        <li><span class="key">Methods</span><span class="val">User studies, prototyping, design-space exploration</span></li>
-        <li><span class="key">Tooling</span><span class="val">Python, Unity</span></li>
-      </ul>
     </div>
   </div>
 </div>
