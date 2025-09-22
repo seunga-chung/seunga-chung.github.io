@@ -2,7 +2,7 @@
 layout: home-page
 title: Research
 permalink: /research/
-subtitle: Publications by type — Journal / Conference / Workshop / Poster
+subtitle: Publications by type — Conference / Journal / Poster / Workshop
 ---
 
 {% assign blocks = site.data.publications | sort: 'year' | reverse %}
