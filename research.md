@@ -10,10 +10,10 @@ subtitle: Publications by type — Journal / Conference / Workshop / Poster
 
 <!-- 상단 빠른 이동(원하면 지워도 됨) -->
 <p class="pub-meta small">
-  <a href="#journal">Journal</a> ·
   <a href="#conference">Conference</a> ·
-  <a href="#workshop">Workshop</a> ·
-  <a href="#poster">Poster</a>
+  <a href="#journal">Journal</a> ·
+  <a href="#poster">Poster</a> ·
+  <a href="#workshop">Workshop</a>
 </p>
 
 {% for T in types %}
