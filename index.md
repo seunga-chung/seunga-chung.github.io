@@ -50,7 +50,7 @@ Outside the lab, I’m usually watching plays and musicals, taking photos, or tr
       <div class="card dense">
         <div class="hd"><p class="title">At a Glance</p></div>
         <div class="pills">
-          <span class="pill">Ph.D. — Ewha HCI Lab</span>
+          <span class="pill">Ph.D. @Ewha HCI Lab</span>
           <span class="pill">UIST 2025 SV Co-Chair</span>
           <span class="pill">W4A Best Paper Nominee</span>
           <span class="pill">Ewha Boeing Scholarship</span>
