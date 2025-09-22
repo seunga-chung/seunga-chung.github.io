@@ -230,3 +230,41 @@ a{ color:var(--accent); text-underline-offset:3px; }
 
 /* (가독성) Research 본문 폭/행간 */
 .kv.kv-def .val{ max-width:72ch; line-height:1.72; }
+
+/* ========== Fill + Contact tidy (final patch) ========== */
+
+/* 1) 페이지를 더 꽉 차게: 전체 폭↑, 우측 메인 폭 크게 */
+.container, .wrapper{ max-width:1160px; }   /* 1040 → 1160 */
+.about-two{
+  grid-template-columns: minmax(300px,340px) minmax(700px,1fr); /* 좌: Contact, 우: 메인 */
+  gap:20px;
+}
+
+/* 2) Contact 링크가 '잘린 것처럼' 보이지 않게 (정렬/줄바꿈 안정화) */
+.about-contact{ overflow:visible; }  /* 예전의 overflow:hidden 효과 제거 */
+.about-contact .kv li{ align-items:flex-start; min-width:0; }
+.about-contact .kv .key{
+  width:100px;                 /* 'LinkedIn' 길이 고려해 넉넉히 */
+  text-align:right;
+  white-space:nowrap;
+  padding-top:2px;
+}
+.about-contact .kv .val{ min-width:0; }
+.about-contact .kv .val a{
+  display:inline-block;
+  max-width:100%;
+  word-break: break-word;      /* 필요한 곳에서만 자연스럽게 줄바꿈 */
+  overflow-wrap: anywhere;
+  hyphens: manual;             /* 자동 하이픈 금지(끊겨보임 방지) */
+  line-height:1.6;
+}
+
+/* 3) Research Areas 본문 가독성 소폭 업 (폭/행간 여유) */
+.kv.kv-def .val{
+  max-width:78ch;   /* 68ch → 78ch로 더 여유 */
+  line-height:1.72;
+}
+
+/* 4) 칩은 단어 단위로만 줄바꿈 (중간 끊김 방지) */
+.pills .pill{ white-space:nowrap; }
+
