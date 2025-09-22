@@ -6,7 +6,7 @@ subtitle: Publications by type — Journal / Conference / Workshop / Poster
 ---
 
 {% assign blocks = site.data.publications | sort: 'year' | reverse %}
-{% assign types = "Journal|Conference|Workshop|Poster" | split: "|" %}
+{% assign types = "Conference|Journal|Poster|Workshop" | split: "|" %}
 
 <!-- 상단 빠른 이동(원하면 지워도 됨) -->
 <p class="pub-meta small">
