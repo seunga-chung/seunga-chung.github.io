@@ -20,7 +20,7 @@ Outside the lab, I’m usually watching plays and musicals, taking photos, or tr
         <li><span class="key">Email</span><span class="val"><a href="mailto:ewhacsa@ewha.ac.kr">ewhacsa@ewha.ac.kr</a></span></li>
         <li><span class="key">LinkedIn</span><span class="val"><a href="https://linkedin.com/in/seunga-chung-0386a51bb/" target="_blank" rel="noopener">linkedin.com/in/seunga-chung</a></span></li>
         <li><span class="key">GitHub</span><span class="val"><a href="https://github.com/seunga-chung" target="_blank" rel="noopener">github.com/seunga-chung</a></span></li>
-        <li><span class="key">Phone</span><span class="val">+82-10-2464-9598</span></li>
+        <li><span class="key">Phone</span><span class="val">+82 10-2464-9598</span></li>
       </ul>
     </div>
 
